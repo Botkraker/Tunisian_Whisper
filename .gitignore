@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Converted CTranslate2 models (rebuild with convert_models.py)
+models/
+
+# Audio: local recordings and benchmark clips (rebuild with bakeoff.py)
+*.wav
+*.flac
+*.mp3
+bench/data/clips/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,23 @@
+{
+ "name": "montachouig-large",
+ "model": "models/montachouig-ct2",
+ "device": "cuda",
+ "compute_type": "int8_float32",
+ "threads": 4,
+ "bench": "4799a36b226f",
+ "created": "2026-10-29T19:58:44+00:00",
+ "clip": "faruk-046",
+ "clip_seconds": 4.958,
+ "partial_s": {
+  "median": 1.263,
+  "max": 1.292
+ },
+ "final_s": {
+  "median": 1.394,
+  "max": 1.399
+ },
+ "final_after_pause_s": 2.026,
+ "rss_mb": 620,
+ "vram_mb": 2016,
+ "passes": false
+}

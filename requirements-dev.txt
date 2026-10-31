@@ -1,0 +1,10 @@
+# The bake-off, model conversion and tests, on top of requirements.txt
+# The extra index gives CPU-only torch wheels (about 200 MB) instead of the multi-GB CUDA build.
+--extra-index-url https://download.pytorch.org/whl/cpu
+-r requirements.txt
+pyarrow
+psutil
+pytest
+torch  # CPU wheels are enough for convert_models.py
+transformers
+safetensors

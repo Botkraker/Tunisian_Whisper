@@ -1,0 +1,23 @@
+{
+ "name": "oddadmix-large",
+ "model": "models/oddadmix-ct2",
+ "device": "cpu",
+ "compute_type": "int8",
+ "threads": 4,
+ "bench": "4799a36b226f",
+ "created": "2026-10-29T20:01:06+00:00",
+ "clip": "faruk-046",
+ "clip_seconds": 4.958,
+ "partial_s": {
+  "median": 10.595,
+  "max": 10.836
+ },
+ "final_s": {
+  "median": 10.981,
+  "max": 11.208
+ },
+ "final_after_pause_s": 11.613,
+ "rss_mb": 2217,
+ "vram_mb": null,
+ "passes": false
+}

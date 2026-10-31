@@ -1,0 +1,9 @@
+# Runtime dependencies for live.py: pip install -r requirements.txt
+# On Linux the microphone also needs PortAudio: sudo apt install libportaudio2
+# The Pro tier (NVIDIA GPU) also needs: pip install nvidia-cublas-cu12 "nvidia-cudnn-cu12==9.*"
+faster-whisper>=1.2.1,<1.3  # live.SileroVad uses the Silero v6 ONNX session bundled with 1.2.x
+av<19  # faster-whisper 1.2.1 passes metadata_errors, which PyAV 19 removed
+sounddevice>=0.4
+numpy
+python-bidi>=0.6
+arabic-reshaper>=3

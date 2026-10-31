@@ -1,0 +1,23 @@
+{
+ "name": "tbb-small",
+ "model": "TheBiggyBang/whisper-small-tunisian-derja-ct2",
+ "device": "cpu",
+ "compute_type": "int8",
+ "threads": 12,
+ "bench": "4799a36b226f",
+ "created": "2026-10-29T20:53:21+00:00",
+ "clip": "faruk-046",
+ "clip_seconds": 4.958,
+ "partial_s": {
+  "median": 3.583,
+  "max": 3.663
+ },
+ "final_s": {
+  "median": 4.923,
+  "max": 5.079
+ },
+ "final_after_pause_s": 5.555,
+ "rss_mb": 518,
+ "vram_mb": null,
+ "passes": false
+}

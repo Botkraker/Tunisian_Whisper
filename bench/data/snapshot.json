@@ -1,0 +1,24 @@
+{
+  "seed": 0,
+  "sources": {
+    "linto": {
+      "repo": "linagora/linto-dataset-audio-ar-tn",
+      "revision": "99796bfd5e8b48febaac60633d1ec97a658fa511",
+      "files": [
+        "data/AmenyKH/test/test-00000-of-00001.parquet",
+        "data/ApprendreLeTunisien/test/test-00000-of-00001.parquet",
+        "data/OneStory/test/test-00000-of-00001.parquet",
+        "data/TunSwitchCS/test/test-00000-of-00001.parquet",
+        "data/TunSwitchTO/test/test-00000-of-00001.parquet",
+        "data/Youtube_TNScrapped_V1/test/test-00000-of-00001.parquet"
+      ]
+    },
+    "faruk": {
+      "repo": "FARUKxAUTO/tunisian-asr-cleaned",
+      "revision": "70621ea0b391c96f5422a754ccb975a640d35066",
+      "files": [
+        "data/test-00000-of-00002.parquet"
+      ]
+    }
+  }
+}
